@@ -34,8 +34,10 @@ export const TaskForm: React.FC<Props> = ({
       onChange={handleNewTaskLabel}
       type="text"
       value={newTaskLabel}
-      
       />
+      <button onClick={handleAddTask}>Add</button>
+      <br/>
+      <button onClick={handleClearTasks}>Clear</button>
     </>
   );
 };
